@@ -1,5 +1,5 @@
 # Springboard Data Science Capstone Project 1 - Do Metacritic Review Scores influence Video Game Sales?
-[Click here for project report]()
+[Click here for project report](https://github.com/cpkoywk/Springboard-Datascience-Career-Track/blob/master/capstone_project_1_video_game_sales/capstone_1_reviews_v_video_game_sales_report.ipynb)
 
 
 ## Define the problem
@@ -32,6 +32,6 @@ The dataset I'm using has the overall critic review score for each video game, t
     i. On one hand, the non-Japanese users take critics' scores more into consideration when deciding buying a game or not
     ii. On the other hand, much more users started to post reviews on Metacritics since 2010, which might be the cause of the declining relevance between Metacritics user scores and game sales.
 
-**So Critic_Score matters for the game sales non-JP market, while the User_Score does not.
+**So Critic_Score matters for the game sales non-JP market, while the User_Score does not**.
 
 2. Critics scores are better indicators for sales in Non_JP regions than JP for post-2010 games, and a game that sold well in other regions didn't necessarily sell well in Japan, **so we might need to use different marketing strategies for Japan**.
