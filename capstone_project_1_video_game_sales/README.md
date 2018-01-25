@@ -14,7 +14,11 @@ The target audiences could be:
 3. The critics: they might be interested to see whether a game's review score could impact a game's sales and/or impact consumers' behavior, therefore put more consideration and responsibilities in their reviews
 
 ## Describe your data set, and how you cleaned/wrangled it
-This project is made possible by an [awesome dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings/) from kaggle by Rush Kirubi that includes the names of games released from 1980-2016, their sales in different regions (North America, Europe, Japan, and other regions), and their critic review scores (Critic_Score) and user review scores (User_Score) scraped from Metacritic.
+This project is made possible by an [awesome dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings/) from kaggle by Rush Kirubi that includes
+1. the names of games released from 1980-2016
+2. the game's genre, publisher, developer, rating, and its platform
+3. their sales in different regions (North America, Europe, Japan, and other regions),
+4. their critic review scores (Critic_Score) and user review scores (User_Score) scraped from Metacritic.
 
 I took the following steps to clean/wrangle the dataset
 
