@@ -2,18 +2,18 @@
 [Click here for project report](https://github.com/cpkoywk/Springboard-Datascience-Career-Track/blob/master/capstone_project_1_video_game_sales/capstone_1_reviews_v_video_game_sales_report.ipynb)
 
 
-## Define the problem
+## The problem
 Recently, we saw more and more news articles discussing the impact of internet review scores on the sales of video games like [this one]( https://www.dailydot.com/parsec/metacritic-scores-game-sales-gdc-2015/)  We have also seen reports like ['Former IGN employee admits review scores are skewed due to public relations'](https://www.zeldadungeon.net/former-ign-employee-admits-review-scores-are-skewed-due-to-public-relations/). It seems that review scores really matter to the video sales from these news articles...and some video game publishers really believe that to go extra miles to influence the critic review scores.
 
 However, I want to use my data science skills to see if Internet video games scores really have some kind of impact on game sales. I hope to see if [review scores are really hurting video games](https://kotaku.com/metacritic-matters-how-review-scores-hurt-video-games-472462218). If they do, how much influence do they have? And when did this trend start?
 
-## Identify your client
-The target audiences could be:
+## Client
+The target audiences are:
 1. The marketing and public relations teams of video game publishers: they might be interested to see if they need to spend some extra efforts to increase the review scores from the critics and/or the users
 2. The consumers: they might be interested to see if review scores would influence their decisions in buying a game
 3. The critics: they might be interested to see whether a game's review score could impact a game's sales and/or impact consumers' behavior, therefore put more consideration and responsibilities in their reviews
 
-## Describe your data set, and how you cleaned/wrangled it
+## Dataset
 This project is made possible by an [awesome dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings/) from kaggle by Rush Kirubi that includes
 1. the names of games released from 1980-2016
 2. the game's genre, publisher, developer, rating, and its platform
@@ -28,10 +28,10 @@ I took the following steps to clean/wrangle the dataset
 4. I also created a column called "Exclusivity", which indicates whether a game is a console exclusive (denoted by '1') or not (denoted by '0').
 5. Furthermore, since Metacritic is a US-based website, I want to see if its review scores have the same effect on the video game sales in North America vs. the other parts of the world, so I've created a column "NonNA_Sales" that indicates a game's sale in the regions other than North America.
 
-## List other potential data sets you could use
+## Other Potential Datasets
 The dataset I'm using has the overall critic review score for each video game, that score was aggregated by Metacritic from various video game review critics/websites. If the dataset has the breakdown of each score that indicates the review score from each critic and website, that would help us further discover if some particular critics and websites are more influential in consumer decision makings than the others.
 
-## Explain your initial findings
+## Initial Findings
 1. More users are paying attention to reviews on Metacritics in recent years (2010 and on)
     i. On one hand, the non-Japanese users take critics' scores more into consideration when deciding buying a game or not
     ii. On the other hand, much more users started to post reviews on Metacritics since 2010, which might be the cause of the declining relevance between Metacritics user scores and game sales.
