@@ -2,18 +2,18 @@
 [Click here for project report](https://github.com/cpkoywk/Springboard-Datascience-Career-Track/blob/master/capstone_project_1_video_game_sales/capstone_1_reviews_v_video_game_sales_report.ipynb)
 
 
-## The problem
-Recently, we saw more and more news articles discussing the impact of internet review scores on the sales of video games like [this one]( https://www.dailydot.com/parsec/metacritic-scores-game-sales-gdc-2015/)  We have also seen reports like ['Former IGN employee admits review scores are skewed due to public relations'](https://www.zeldadungeon.net/former-ign-employee-admits-review-scores-are-skewed-due-to-public-relations/). It seems that review scores really matter to the video sales from these news articles...and some video game publishers really believe that to go extra miles to influence the critic review scores.
+## Data Problem
+Recently, we saw more and more news articles discussing the impact of internet review scores on the sales of video games like [this one]( https://www.dailydot.com/parsec/metacritic-scores-game-sales-gdc-2015/)  We have also seen reports like ['Former IGN employee admits review scores are skewed due to public relations'](https://www.zeldadungeon.net/former-ign-employee-admits-review-scores-are-skewed-due-to-public-relations/). It seems that review scores really matter to the video sales from these news articles, and some video game publishers really believed that as they went extra miles to influence the critic review scores.
 
 However, I want to use my data science skills to see if Internet video games scores really have some kind of impact on game sales. I hope to see if [review scores are really hurting video games](https://kotaku.com/metacritic-matters-how-review-scores-hurt-video-games-472462218). If they do, how much influence do they have? And when did this trend start?
 
-## Client
+## My audiences
 The target audiences are:
 1. The marketing and public relations teams of video game publishers: they might be interested to see if they need to spend some extra efforts to increase the review scores from the critics and/or the users
 2. The consumers: they might be interested to see if review scores would influence their decisions in buying a game
 3. The critics: they might be interested to see whether a game's review score could impact a game's sales and/or impact consumers' behavior, therefore put more consideration and responsibilities in their reviews
 
-## Dataset
+## Dataset Description
 This project is made possible by an [awesome dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings/) from kaggle by Rush Kirubi that includes
 1. the names of games released from 1980-2016
 2. the game's genre, publisher, developer, rating, and its platform
